@@ -1,0 +1,30 @@
+table, th, td{
+
+    border: 1px solid black;
+    border-collapse: collapse;
+    padding: 5px;
+    
+}
+
+caption{
+    color: rgb(1, 17, 245);
+    font-family: 'Times New Roman', Times, serif, Helvetica, sans-serif;
+    font-size: 30px;
+}
+
+th{
+    color: #f1faee;
+    background-color: #2a571d;
+    font-family: 'Times New Roman', Times, serif, Helvetica, sans-serif;
+}
+
+td{
+    font-family: 'Times New Roman', Times, serif, Helvetica, sans-serif;
+}
+
+
+table
+{
+    margin: 0 auto;
+
+}
