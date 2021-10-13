@@ -1,0 +1,79 @@
+table, th, td{
+
+    border: 1px solid black;
+    border-collapse: collapse;
+    padding: 5px;
+    
+}
+
+caption{
+    color: rgb(1, 17, 245);
+    font-family: 'Times New Roman', Times, serif, Helvetica, sans-serif;
+    font-size: 30px;
+}
+
+th{
+    color: #f1faee;
+    background-color: #2a571d;
+    font-family: 'Times New Roman', Times, serif, Helvetica, sans-serif;
+}
+
+td{
+    font-family: 'Times New Roman', Times, serif, Helvetica, sans-serif;
+}
+
+
+table
+{
+    margin: 0 auto;
+
+}
+
+@media(max-width: 250px){
+    table thead{
+        display: none;
+    }
+
+    table{ 
+        display: block;
+        width: 100%;
+    }
+    table tbody{
+        display: block;
+        width: 100%
+    }
+    table tr{
+        display: block;
+        width:100%
+    }
+
+    table td{
+        display:block;
+        width:100%
+
+    }
+    
+    table th{
+        display: block;
+        width: 100;
+
+    }
+
+    table tr{
+        margin-bottom: 15px;
+    }
+    table td{       
+        text-align: left;
+        position: relative;
+    }
+    table td::before{
+        content: attr(data-label);
+        position: absolute;
+        left: 0;
+        width: 50%;
+        padding-left: 15px;
+        font-size: 15px;
+        font-weight: bold;
+        text-align: left;
+    }
+}
